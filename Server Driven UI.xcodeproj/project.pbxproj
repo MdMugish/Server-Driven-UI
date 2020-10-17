@@ -24,6 +24,7 @@
 		ACC89B9E253AACD40055C6E8 /* FormTwo.json in Resources */ = {isa = PBXBuildFile; fileRef = ACC89B9D253AACD40055C6E8 /* FormTwo.json */; };
 		ACC89BA5253AB8460055C6E8 /* FormTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC89BA4253AB8460055C6E8 /* FormTwo.swift */; };
 		ACC89BA8253AB9A80055C6E8 /* UserNameInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC89BA7253AB9A80055C6E8 /* UserNameInputView.swift */; };
+		ACC89BAD253AC5990055C6E8 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC89BAC253AC5990055C6E8 /* Enum.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -46,6 +47,7 @@
 		ACC89B9D253AACD40055C6E8 /* FormTwo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FormTwo.json; sourceTree = "<group>"; };
 		ACC89BA4253AB8460055C6E8 /* FormTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTwo.swift; sourceTree = "<group>"; };
 		ACC89BA7253AB9A80055C6E8 /* UserNameInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameInputView.swift; sourceTree = "<group>"; };
+		ACC89BAC253AC5990055C6E8 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -145,6 +147,7 @@
 		AC09E0602539E7E200A3D30A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				ACC89BAC253AC5990055C6E8 /* Enum.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -235,6 +238,7 @@
 				AC09E0792539F3B700A3D30A /* Dictionary+Extensions.swift in Sources */,
 				AC09E0732539EFF200A3D30A /* Picker.swift in Sources */,
 				ACC89BA5253AB8460055C6E8 /* FormTwo.swift in Sources */,
+				ACC89BAD253AC5990055C6E8 /* Enum.swift in Sources */,
 				AC09E06D2539EE8800A3D30A /* View+Extension.swift in Sources */,
 				AC09E0702539EFE600A3D30A /* TextField.swift in Sources */,
 				AC09E04A2539E4AF00A3D30A /* SceneDelegate.swift in Sources */,

@@ -7,10 +7,7 @@
 
 import SwiftUI
 
-enum FormType : String{
-    case FormOne
-    case FormTwo
-}
+
 struct FormView: View {
     
     @StateObject private var vm : FormViewModel = FormViewModel()
