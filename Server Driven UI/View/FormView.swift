@@ -30,17 +30,28 @@ struct FormView: View {
                 }
                 .padding(.horizontal, 16)
                 .padding(.top,24)
-                ForEach(vm.textFieldView, id: \.uniqueId){ textFieldComponent in
-                    textFieldComponent.render()
+                
+                ForEach(vm.allViews, id: \.id){ value in
+                    
+                    if value.pickerUIComponent != nil{
+                        value.pickerUIComponent!.render()
+                    }else if value.textFieldUIComponent != nil{
+                        value.textFieldUIComponent!.render()
+                    }
+                   
                 }
                 
-                ForEach(vm.pickerView, id: \.uniqueId){ pickerViewComponent in
-                    pickerViewComponent.render()
-                }
+//                ForEach(vm.textFieldView, id: \.uniqueId){ textFieldComponent in
+//                    textFieldComponent.render()
+//                }
+//
+//                ForEach(vm.pickerView, id: \.uniqueId){ pickerViewComponent in
+//                    pickerViewComponent.render()
+//                }
                 
                 Spacer()
-                Button(action : { vm.readTextFieldValue()
-                    vm.readpickerValue()
+                Button(action : {
+                    vm.readAllValues()
                     presentForm.toggle()
                 }){
                     Text("Sumbit")
@@ -53,15 +64,18 @@ struct FormView: View {
                     Spacer()
                 }
                 VStack(alignment : .leading, spacing : 12){
-                    ForEach(0..<vm.textFieldView.count){ value in
-                        Text("\(vm.textFieldView[value].vm.model.fieldHint) :   \(vm.allTextFieldValues[value])")
+                    ForEach(0..<vm.allViews.count){ value in
+                        
+                        if vm.allViews[value].textFieldUIComponent != nil{
+                            Text("\(vm.allViews[value].textFieldUIComponent!.vm.model.fieldHint) :   \(vm.allValues[value])")
+                        }else if vm.allViews[value].pickerUIComponent != nil{
+                            Text("\(vm.allViews[value].pickerUIComponent!.vm.model.selectedValue) :   \(vm.allValues[value])")
+                        }
+                        
+                    
                     }
                     
-                    ForEach(0..<vm.pickerView.count){ value in
-                        
-                        Text("\(vm.pickerView[value].vm.model.pickerHint) :   \(vm.allPickerValues[value] )")
-                        
-                    }
+
                     
                     Spacer()
                     HStack{

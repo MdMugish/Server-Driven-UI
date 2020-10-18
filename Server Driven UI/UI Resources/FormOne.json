@@ -19,6 +19,16 @@
                "fieldName" : ""
            }
        },
+       {
+           "type" : "picker",
+           "data" : {
+               "pickerHint" : "Gender",
+               "pickerValue" : "Male,Female",
+               "selectedValue" : "Male"
+               
+           }
+       },
+
        
    
        
@@ -28,17 +38,8 @@
                "fieldHint" : "Pan number",
                "fieldName" : ""
            }
-       },
-       
-       {
-           "type" : "picker",
-           "data" : {
-               "pickerHint" : "Gender",
-               "pickerValue" : "Male,Female",
-               "selectedValue" : "Male"
-               
-           }
        }
+       
        
             
           

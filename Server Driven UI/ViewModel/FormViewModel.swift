@@ -7,34 +7,45 @@
 
 import Foundation
 
+
+
 class FormViewModel : ObservableObject{
     
-    @Published var textFieldView : [TextFieldUICompnent] = []
-    @Published var pickerView : [PickerViewUIComponent] = []
-    @Published var allTextFieldValues : [String] = []
-    @Published var allPickerValues : [String] = []
+
+
+    
+    @Published var allViews = [AllRenderViews]()
+    @Published var allValues : [String] = []
+    
     init() {
         print("init", #function)
     }
     
-    
-    func readTextFieldValue(){
-        allTextFieldValues.removeAll()
-        self.textFieldView.forEach{ value in
-            allTextFieldValues.append(value.vm.model.fieldName)
-        }
+    func readAllValues(){
         
-        print(allTextFieldValues, "All Textfields values")
-    }
-    
-    func readpickerValue(){
-        self.allPickerValues.removeAll()
-        self.pickerView.forEach{ value in
-            allPickerValues.append(value.vm.model.selectedValue)
+        allValues.removeAll()
+        
+        self.allViews.forEach{ value in
+            if value.type == .picker{
+                
+                print("Value of Picker is : ", value.pickerUIComponent!.vm.model.selectedValue)
+                
+                self.allValues.append(value.pickerUIComponent!.vm.model.selectedValue)
+                
+            }else if value.type == .textField{
+                print("Value of text field is : ", value.textFieldUIComponent!.vm.model.fieldName)
+                
+                self.allValues.append(value.textFieldUIComponent!.vm.model.fieldName)
+            }
         }
-        print(allPickerValues, "All picker values")
+
+        
+        
+        
     }
     
+ 
+
     
     func loadJSON(typeOfForm : FormType){
         //"FormOne"
@@ -51,7 +62,9 @@ class FormViewModel : ObservableObject{
                     return
                 }
                 DispatchQueue.main.async {
-                    self.pickerView.append(PickerViewUIComponent(vm: PickerViewModel(model: pickerModel)))
+           
+                    self.allViews.append(AllRenderViews(type: .picker, pickerUIComponent: PickerViewUIComponent(vm: PickerViewModel(model: pickerModel)), textFieldUIComponent: nil))
+      
                 }
                 
             case .textField :
@@ -61,7 +74,10 @@ class FormViewModel : ObservableObject{
                 }
                 
                 DispatchQueue.main.async {
-                    self.textFieldView.append(TextFieldUICompnent(vm: TextFieldViewModel(model: textFieldModel)))
+
+                    
+                    self.allViews.append(AllRenderViews(type: .textField, pickerUIComponent: nil, textFieldUIComponent: TextFieldUICompnent(vm: TextFieldViewModel(model: textFieldModel))))
+                   
                 }
             }
             

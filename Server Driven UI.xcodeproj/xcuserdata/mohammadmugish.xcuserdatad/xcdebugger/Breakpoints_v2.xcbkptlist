@@ -14,8 +14,8 @@
             filePath = "Server Driven UI/ViewModel/FormViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "50"
-            endingLineNumber = "50"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
             landmarkName = "loadJSON(typeOfForm:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,13 +30,13 @@
             filePath = "Server Driven UI/ViewModel/FormViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "53"
-            endingLineNumber = "53"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
             landmarkName = "loadJSON(typeOfForm:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "5278FC4B-160A-455D-9815-5CAAC6D32F95 - b292e070e8fc19bd"
+                  uuid = "5278FC4B-160A-455D-9815-5CAAC6D32F95 - b292e070e8fc17cf"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -46,12 +46,12 @@
                   urlString = "file:///Users/mohammadmugish/Desktop/MyProject/Server%20Driven%20UI/Server%20Driven%20UI/ViewModel/FormViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "53"
-                  endingLineNumber = "53"
-                  offsetFromSymbolStart = "624">
+                  startingLineNumber = "67"
+                  endingLineNumber = "67"
+                  offsetFromSymbolStart = "692">
                </Location>
                <Location
-                  uuid = "5278FC4B-160A-455D-9815-5CAAC6D32F95 - cb6b68fb70b167fb"
+                  uuid = "5278FC4B-160A-455D-9815-5CAAC6D32F95 - cb6b68fb70b169cd"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
@@ -61,9 +61,9 @@
                   urlString = "file:///Users/mohammadmugish/Desktop/MyProject/Server%20Driven%20UI/Server%20Driven%20UI/ViewModel/FormViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "54"
-                  endingLineNumber = "54"
-                  offsetFromSymbolStart = "40">
+                  startingLineNumber = "68"
+                  endingLineNumber = "68"
+                  offsetFromSymbolStart = "126">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -78,8 +78,8 @@
             filePath = "Server Driven UI/ViewModel/FormViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "60"
-            endingLineNumber = "60"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
             landmarkName = "loadJSON(typeOfForm:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -94,8 +94,8 @@
             filePath = "Server Driven UI/ViewModel/FormViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
+            startingLineNumber = "77"
+            endingLineNumber = "77"
             landmarkName = "loadJSON(typeOfForm:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -128,6 +128,70 @@
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "37"
             endingLineNumber = "37"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "25E2F86D-83E0-4012-8B10-B0F230D5D331"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Server Driven UI/ViewModel/FormViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "readAllValues()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "25E2F86D-83E0-4012-8B10-B0F230D5D331 - fc42de0900d29dfc"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "Server_Driven_UI.FormViewModel.readAllView() -&gt; ()"
+                  moduleName = "Server Driven UI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadmugish/Desktop/MyProject/Server%20Driven%20UI/Server%20Driven%20UI/ViewModel/FormViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "29">
+               </Location>
+               <Location
+                  uuid = "25E2F86D-83E0-4012-8B10-B0F230D5D331 - dfbfdd81f92a9704"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 ((key: Server_Driven_UI.UI_ComponentType, value: Swift.Array&lt;Any&gt;)) -&gt; () in Server_Driven_UI.FormViewModel.readAllView() -&gt; ()"
+                  moduleName = "Server Driven UI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadmugish/Desktop/MyProject/Server%20Driven%20UI/Server%20Driven%20UI/ViewModel/FormViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "41">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB25B132-866F-4B0D-A215-5D1A4B8E40CC"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Server Driven UI/View/FormView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "54"
+            endingLineNumber = "54"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>
