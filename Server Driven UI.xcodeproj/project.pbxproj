@@ -13,18 +13,25 @@
 		AC09E04E2539E4B900A3D30A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC09E04D2539E4B900A3D30A /* Assets.xcassets */; };
 		AC09E0512539E4B900A3D30A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AC09E0502539E4B900A3D30A /* Preview Assets.xcassets */; };
 		AC09E0542539E4B900A3D30A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AC09E0522539E4B900A3D30A /* LaunchScreen.storyboard */; };
-		AC09E0632539E81D00A3D30A /* FormOne.json in Resources */ = {isa = PBXBuildFile; fileRef = AC09E0622539E81D00A3D30A /* FormOne.json */; };
-		AC09E0672539E85A00A3D30A /* UI_Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC09E0662539E85A00A3D30A /* UI_Components.swift */; };
+		AC09E0632539E81D00A3D30A /* Alpha_1.json in Resources */ = {isa = PBXBuildFile; fileRef = AC09E0622539E81D00A3D30A /* Alpha_1.json */; };
 		AC09E06D2539EE8800A3D30A /* View+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC09E06C2539EE8800A3D30A /* View+Extension.swift */; };
-		AC09E0702539EFE600A3D30A /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC09E06F2539EFE600A3D30A /* TextField.swift */; };
-		AC09E0732539EFF200A3D30A /* Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC09E0722539EFF200A3D30A /* Picker.swift */; };
-		AC09E0762539F21200A3D30A /* FormOne.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC09E0752539F21200A3D30A /* FormOne.swift */; };
 		AC09E0792539F3B700A3D30A /* Dictionary+Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC09E0782539F3B700A3D30A /* Dictionary+Extensions.swift */; };
 		AC09E07C2539F3E600A3D30A /* FormViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC09E07B2539F3E600A3D30A /* FormViewModel.swift */; };
-		ACC89B9E253AACD40055C6E8 /* FormTwo.json in Resources */ = {isa = PBXBuildFile; fileRef = ACC89B9D253AACD40055C6E8 /* FormTwo.json */; };
-		ACC89BA5253AB8460055C6E8 /* FormTwo.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC89BA4253AB8460055C6E8 /* FormTwo.swift */; };
+		AC0C705A254BE09A009BB8CF /* allForms.json in Resources */ = {isa = PBXBuildFile; fileRef = AC0C7059254BE09A009BB8CF /* allForms.json */; };
+		AC0C705E254BE3E9009BB8CF /* Alpha_3.json in Resources */ = {isa = PBXBuildFile; fileRef = AC0C705D254BE3E9009BB8CF /* Alpha_3.json */; };
+		AC8CAEB42540406600F5A60B /* Action.swift in Sources */ = {isa = PBXBuildFile; fileRef = AC8CAEB32540406600F5A60B /* Action.swift */; };
+		ACAF13DC254BE84700BBE92D /* CustomForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAF13D8254BE84700BBE92D /* CustomForm.swift */; };
+		ACAF13DD254BE84700BBE92D /* Picker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAF13D9254BE84700BBE92D /* Picker.swift */; };
+		ACAF13DE254BE84700BBE92D /* TextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAF13DA254BE84700BBE92D /* TextField.swift */; };
+		ACAF13DF254BE84700BBE92D /* UI_Components.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAF13DB254BE84700BBE92D /* UI_Components.swift */; };
+		ACAF13E2254BE9BC00BBE92D /* ListOfFormsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAF13E1254BE9BC00BBE92D /* ListOfFormsViewModel.swift */; };
+		ACAF13E6254BEAAD00BBE92D /* ListOfForm.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACAF13E5254BEAAD00BBE92D /* ListOfForm.swift */; };
+		ACAF13EA254C1CD200BBE92D /* Alpha_4.json in Resources */ = {isa = PBXBuildFile; fileRef = ACAF13E9254C1CD200BBE92D /* Alpha_4.json */; };
+		ACAF13ED254C1CDF00BBE92D /* Alpha_5.json in Resources */ = {isa = PBXBuildFile; fileRef = ACAF13EC254C1CDF00BBE92D /* Alpha_5.json */; };
+		ACC89B9E253AACD40055C6E8 /* Alpha_2.json in Resources */ = {isa = PBXBuildFile; fileRef = ACC89B9D253AACD40055C6E8 /* Alpha_2.json */; };
 		ACC89BA8253AB9A80055C6E8 /* UserNameInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC89BA7253AB9A80055C6E8 /* UserNameInputView.swift */; };
 		ACC89BAD253AC5990055C6E8 /* Enum.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC89BAC253AC5990055C6E8 /* Enum.swift */; };
+		ACE9A758254C26B7009DD98D /* testing.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACE9A757254C26B7009DD98D /* testing.swift */; };
 		ACF4ACAB253C54F600B45C71 /* AllRenderViews.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF4ACAA253C54F600B45C71 /* AllRenderViews.swift */; };
 /* End PBXBuildFile section */
 
@@ -37,18 +44,25 @@
 		AC09E0502539E4B900A3D30A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AC09E0532539E4B900A3D30A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AC09E0552539E4B900A3D30A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		AC09E0622539E81D00A3D30A /* FormOne.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = FormOne.json; sourceTree = "<group>"; };
-		AC09E0662539E85A00A3D30A /* UI_Components.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UI_Components.swift; sourceTree = "<group>"; };
+		AC09E0622539E81D00A3D30A /* Alpha_1.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = Alpha_1.json; sourceTree = "<group>"; };
 		AC09E06C2539EE8800A3D30A /* View+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+Extension.swift"; sourceTree = "<group>"; };
-		AC09E06F2539EFE600A3D30A /* TextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
-		AC09E0722539EFF200A3D30A /* Picker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Picker.swift; sourceTree = "<group>"; };
-		AC09E0752539F21200A3D30A /* FormOne.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormOne.swift; sourceTree = "<group>"; };
 		AC09E0782539F3B700A3D30A /* Dictionary+Extensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Dictionary+Extensions.swift"; sourceTree = "<group>"; };
 		AC09E07B2539F3E600A3D30A /* FormViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormViewModel.swift; sourceTree = "<group>"; };
-		ACC89B9D253AACD40055C6E8 /* FormTwo.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = FormTwo.json; sourceTree = "<group>"; };
-		ACC89BA4253AB8460055C6E8 /* FormTwo.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FormTwo.swift; sourceTree = "<group>"; };
+		AC0C7059254BE09A009BB8CF /* allForms.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = allForms.json; sourceTree = "<group>"; };
+		AC0C705D254BE3E9009BB8CF /* Alpha_3.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Alpha_3.json; sourceTree = "<group>"; };
+		AC8CAEB32540406600F5A60B /* Action.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Action.swift; sourceTree = "<group>"; };
+		ACAF13D8254BE84700BBE92D /* CustomForm.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomForm.swift; sourceTree = "<group>"; };
+		ACAF13D9254BE84700BBE92D /* Picker.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Picker.swift; sourceTree = "<group>"; };
+		ACAF13DA254BE84700BBE92D /* TextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextField.swift; sourceTree = "<group>"; };
+		ACAF13DB254BE84700BBE92D /* UI_Components.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UI_Components.swift; sourceTree = "<group>"; };
+		ACAF13E1254BE9BC00BBE92D /* ListOfFormsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfFormsViewModel.swift; sourceTree = "<group>"; };
+		ACAF13E5254BEAAD00BBE92D /* ListOfForm.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfForm.swift; sourceTree = "<group>"; };
+		ACAF13E9254C1CD200BBE92D /* Alpha_4.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Alpha_4.json; sourceTree = "<group>"; };
+		ACAF13EC254C1CDF00BBE92D /* Alpha_5.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Alpha_5.json; sourceTree = "<group>"; };
+		ACC89B9D253AACD40055C6E8 /* Alpha_2.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Alpha_2.json; sourceTree = "<group>"; };
 		ACC89BA7253AB9A80055C6E8 /* UserNameInputView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserNameInputView.swift; sourceTree = "<group>"; };
 		ACC89BAC253AC5990055C6E8 /* Enum.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Enum.swift; sourceTree = "<group>"; };
+		ACE9A757254C26B7009DD98D /* testing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = testing.swift; sourceTree = "<group>"; };
 		ACF4ACAA253C54F600B45C71 /* AllRenderViews.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllRenderViews.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -84,7 +98,6 @@
 			children = (
 				AC09E0472539E4AF00A3D30A /* AppDelegate.swift */,
 				AC09E05F2539E7C200A3D30A /* UI Resources */,
-				AC09E05E2539E7B300A3D30A /* UI_Components */,
 				AC09E05D2539E63F00A3D30A /* Extension */,
 				AC09E0602539E7E200A3D30A /* Model */,
 				AC09E0612539E7E800A3D30A /* View */,
@@ -110,6 +123,7 @@
 			isa = PBXGroup;
 			children = (
 				AC09E07B2539F3E600A3D30A /* FormViewModel.swift */,
+				ACAF13E1254BE9BC00BBE92D /* ListOfFormsViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -123,23 +137,12 @@
 			path = Extension;
 			sourceTree = "<group>";
 		};
-		AC09E05E2539E7B300A3D30A /* UI_Components */ = {
-			isa = PBXGroup;
-			children = (
-				AC09E0662539E85A00A3D30A /* UI_Components.swift */,
-				AC09E0752539F21200A3D30A /* FormOne.swift */,
-				ACC89BA4253AB8460055C6E8 /* FormTwo.swift */,
-				AC09E0722539EFF200A3D30A /* Picker.swift */,
-				AC09E06F2539EFE600A3D30A /* TextField.swift */,
-			);
-			path = UI_Components;
-			sourceTree = "<group>";
-		};
 		AC09E05F2539E7C200A3D30A /* UI Resources */ = {
 			isa = PBXGroup;
 			children = (
-				AC09E0622539E81D00A3D30A /* FormOne.json */,
-				ACC89B9D253AACD40055C6E8 /* FormTwo.json */,
+				AC0C705C254BE3B6009BB8CF /* AllForms */,
+				AC0C7059254BE09A009BB8CF /* allForms.json */,
+				ACAF13CE254BE7A300BBE92D /* Form UI_Components */,
 			);
 			path = "UI Resources";
 			sourceTree = "<group>";
@@ -149,6 +152,7 @@
 			children = (
 				ACC89BAC253AC5990055C6E8 /* Enum.swift */,
 				ACF4ACAA253C54F600B45C71 /* AllRenderViews.swift */,
+				AC8CAEB32540406600F5A60B /* Action.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -158,8 +162,33 @@
 			children = (
 				ACC89BA7253AB9A80055C6E8 /* UserNameInputView.swift */,
 				AC09E04B2539E4AF00A3D30A /* FormView.swift */,
+				ACE9A757254C26B7009DD98D /* testing.swift */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		AC0C705C254BE3B6009BB8CF /* AllForms */ = {
+			isa = PBXGroup;
+			children = (
+				AC09E0622539E81D00A3D30A /* Alpha_1.json */,
+				ACC89B9D253AACD40055C6E8 /* Alpha_2.json */,
+				AC0C705D254BE3E9009BB8CF /* Alpha_3.json */,
+				ACAF13E9254C1CD200BBE92D /* Alpha_4.json */,
+				ACAF13EC254C1CDF00BBE92D /* Alpha_5.json */,
+			);
+			path = AllForms;
+			sourceTree = "<group>";
+		};
+		ACAF13CE254BE7A300BBE92D /* Form UI_Components */ = {
+			isa = PBXGroup;
+			children = (
+				ACAF13DB254BE84700BBE92D /* UI_Components.swift */,
+				ACAF13D8254BE84700BBE92D /* CustomForm.swift */,
+				ACAF13D9254BE84700BBE92D /* Picker.swift */,
+				ACAF13DA254BE84700BBE92D /* TextField.swift */,
+				ACAF13E5254BEAAD00BBE92D /* ListOfForm.swift */,
+			);
+			path = "Form UI_Components";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -219,9 +248,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AC09E0632539E81D00A3D30A /* FormOne.json in Resources */,
+				AC09E0632539E81D00A3D30A /* Alpha_1.json in Resources */,
+				AC0C705A254BE09A009BB8CF /* allForms.json in Resources */,
+				AC0C705E254BE3E9009BB8CF /* Alpha_3.json in Resources */,
+				ACAF13ED254C1CDF00BBE92D /* Alpha_5.json in Resources */,
 				AC09E0542539E4B900A3D30A /* LaunchScreen.storyboard in Resources */,
-				ACC89B9E253AACD40055C6E8 /* FormTwo.json in Resources */,
+				ACC89B9E253AACD40055C6E8 /* Alpha_2.json in Resources */,
+				ACAF13EA254C1CD200BBE92D /* Alpha_4.json in Resources */,
 				AC09E0512539E4B900A3D30A /* Preview Assets.xcassets in Resources */,
 				AC09E04E2539E4B900A3D30A /* Assets.xcassets in Resources */,
 			);
@@ -235,18 +268,21 @@
 			buildActionMask = 2147483647;
 			files = (
 				AC09E07C2539F3E600A3D30A /* FormViewModel.swift in Sources */,
+				ACAF13DF254BE84700BBE92D /* UI_Components.swift in Sources */,
+				ACAF13E6254BEAAD00BBE92D /* ListOfForm.swift in Sources */,
+				ACAF13E2254BE9BC00BBE92D /* ListOfFormsViewModel.swift in Sources */,
+				ACAF13DE254BE84700BBE92D /* TextField.swift in Sources */,
 				ACC89BA8253AB9A80055C6E8 /* UserNameInputView.swift in Sources */,
 				AC09E0482539E4AF00A3D30A /* AppDelegate.swift in Sources */,
-				AC09E0672539E85A00A3D30A /* UI_Components.swift in Sources */,
 				ACF4ACAB253C54F600B45C71 /* AllRenderViews.swift in Sources */,
 				AC09E0792539F3B700A3D30A /* Dictionary+Extensions.swift in Sources */,
-				AC09E0732539EFF200A3D30A /* Picker.swift in Sources */,
-				ACC89BA5253AB8460055C6E8 /* FormTwo.swift in Sources */,
 				ACC89BAD253AC5990055C6E8 /* Enum.swift in Sources */,
+				ACE9A758254C26B7009DD98D /* testing.swift in Sources */,
 				AC09E06D2539EE8800A3D30A /* View+Extension.swift in Sources */,
-				AC09E0702539EFE600A3D30A /* TextField.swift in Sources */,
+				ACAF13DD254BE84700BBE92D /* Picker.swift in Sources */,
+				ACAF13DC254BE84700BBE92D /* CustomForm.swift in Sources */,
 				AC09E04A2539E4AF00A3D30A /* SceneDelegate.swift in Sources */,
-				AC09E0762539F21200A3D30A /* FormOne.swift in Sources */,
+				AC8CAEB42540406600F5A60B /* Action.swift in Sources */,
 				AC09E04C2539E4AF00A3D30A /* FormView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

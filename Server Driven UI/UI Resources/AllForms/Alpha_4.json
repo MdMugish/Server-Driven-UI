@@ -1,0 +1,83 @@
+{
+
+    "pageTitle": "Alpha 4",
+    "components": [
+
+        {
+            "type": "textField",
+            "data": {
+                "fieldHint": "User Name 4",
+                "fieldName": "",
+                "status": "1",
+                "minValue": "6",
+                "maxValue": "20",
+                "inputType": "text",
+                "validation_status": "0",
+                "validation_URL": ""
+
+            }
+        },
+
+
+        {
+            "type": "textField",
+            "data": {
+                "fieldHint": "User Email Id 4",
+                "fieldName": "",
+                "status": "1",
+                "minValue": "6",
+                "maxValue": "20",
+                "inputType": "email",
+                "validation_status": "0",
+                "validation_URL": ""
+
+            }
+        },
+
+        {
+            "type": "picker",
+            "data": {
+                "pickerHint": "User Hospital/Doctors 4",
+                "pickerValue": "Microsoft (Akanksha),murakami(akanskha),My company(My check),MY UNA CABS(Demo),NASSCOM(El item),new(new lead),new(new),New Hospital (Dr. Bimal ),New mop(New),New test user(New test),new1(nii),Nissan\/Datsun (Nivedita Patil),Nnn(B),Nobel Medicals (Ashish),nxnxh(zhzhz bbzbzbz),ola(ola),Ozone Group(Shashidhar L),Patson Ford(Harsha Patil),PMBJK Pradhan Manthri Jan Aushadhi Kendra(Akanksha),Portfolio Management Services(Arjun),Prem Motors(Sudhanshu Khashab),Premium Technologies(Manavika),PurpleRain (Akanksha),Purvankara Group(Anand Narayanan),R K  Communications (Raj Kumar),Rahul(Peacock Bakers),rainbow(G-Shock),Rajat Equipments Pvt. Ltd.(Seema),Rajeev Tours and Travels (Rajeev ),RS Husada Insani(RS Husada Insani),RS Jantung Harapan kita(RS Jantung Harapan kita),S K Finance(Divya),Samsung(Vahmine),Sharief logistics (Sharief Ahmed),Shriram Vehicle Finance Company(Shivam),Shurud Consultants (Sunil ),Singapore Garments(Sabir),Six Sigma Enterprises(rahul sharma),Skipper Electricals(SN Gaur),Sony(Sony center),Sree Gokulam Chit Finance Company(Meenakshi),Sri Durga Darshini Condiments(prince),SRI JANANI MEDICAL & GENERAL STORE(Akash)",
+                "selectedValue": "PurpleRain (Akanksha)",
+                "status": "1"
+
+
+            }
+        },
+
+        {
+            "type": "textField",
+            "data": {
+                "fieldHint": "User Pin Code 4",
+                "fieldName": "",
+                "status": "1",
+                "minValue": "4",
+                "maxValue": "8",
+                "inputType": "number",
+                "validation_status": "0",
+                "validation_URL": ""
+
+            }
+        },
+
+
+        {
+            "type": "textField",
+            "data": {
+                "fieldHint": "User Mobile Number 4",
+                "fieldName": "",
+                "status": "1",
+                "minValue": "10",
+                "maxValue": "10",
+                "inputType": "number",
+                "validation_status": "0",
+                "validation_URL": ""
+
+            }
+        }
+
+
+    ]
+
+}

@@ -1,25 +1,34 @@
 //
-//  FormOne.swift
+//  ListOfForm.swift
 //  Server Driven UI
 //
-//  Created by mohammad mugish on 16/10/20.
+//  Created by mohammad mugish on 30/10/20.
 //
-
 import Foundation
 
-struct FormOne : Decodable {
-    let type : UI_ComponentType
+struct listOfFormModel : Codable, Identifiable
+{
+    var id: String = UUID().uuidString
+    let formTitle : String
+    let formSubTitle : String
+    let index : String
+    
+}
+
+
+struct ListOfFormData :Decodable{
     let data : [String : String]
 }
 
-struct FormOneComponent : Decodable{
-    let pageTitle : String
-    let components : [FormOne]
+
+struct ListOfForm : Decodable{
+    let allForms : [ListOfFormData]
 }
 
-extension FormOneComponent {
+
+extension ListOfForm {
     
-    static func loadJSON(formName : String) -> FormOneComponent? {
+    static func loadJSON(formName : String) -> ListOfForm? {
         
         guard let jsonFilePath = Bundle.main.path(forResource: formName, ofType: "json") else {
             fatalError("Unable to load JSON for \(formName)")
@@ -29,10 +38,10 @@ extension FormOneComponent {
             fatalError("Unable to load data from \(jsonFilePath)")
         }
         
-        var form : FormOneComponent?
+        var form : ListOfForm?
         
         do{
-            form =  try JSONDecoder().decode(FormOneComponent.self, from: data)
+            form =  try JSONDecoder().decode(ListOfForm.self, from: data)
         }catch{
             print(error, "Error")
         }

@@ -14,8 +14,8 @@
             filePath = "Server Driven UI/ViewModel/FormViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "61"
-            endingLineNumber = "61"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
             landmarkName = "loadJSON(typeOfForm:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -30,40 +30,40 @@
             filePath = "Server Driven UI/ViewModel/FormViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
             landmarkName = "loadJSON(typeOfForm:)"
             landmarkType = "7">
             <Locations>
                <Location
-                  uuid = "5278FC4B-160A-455D-9815-5CAAC6D32F95 - b292e070e8fc17cf"
+                  uuid = "5278FC4B-160A-455D-9815-5CAAC6D32F95 - 4afe1ad48e1b5b9d"
                   shouldBeEnabled = "Yes"
                   ignoreCount = "0"
                   continueAfterRunningActions = "No"
-                  symbolName = "closure #1 (Server_Driven_UI.FormOne) -&gt; () in Server_Driven_UI.FormViewModel.loadJSON(typeOfForm: Server_Driven_UI.FormType) -&gt; ()"
+                  symbolName = "closure #1 (Server_Driven_UI.Form) -&gt; () in Server_Driven_UI.FormViewModel.loadJSON(typeOfForm: Swift.String) -&gt; ()"
                   moduleName = "Server Driven UI"
                   usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohammadmugish/Desktop/MyProject/Server%20Driven%20UI/Server%20Driven%20UI/ViewModel/FormViewModel.swift"
+                  urlString = "file:///Users/mohammadmugish/Desktop/My%20Project/Server%20Driven%20UI/Server%20Driven%20UI/ViewModel/FormViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "801">
+               </Location>
+               <Location
+                  uuid = "5278FC4B-160A-455D-9815-5CAAC6D32F95 - e1d33be24ded8537"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in closure #1 (Server_Driven_UI.Form) -&gt; () in Server_Driven_UI.FormViewModel.loadJSON(typeOfForm: Swift.String) -&gt; ()"
+                  moduleName = "Server Driven UI"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/mohammadmugish/Desktop/My%20Project/Server%20Driven%20UI/Server%20Driven%20UI/ViewModel/FormViewModel.swift"
                   startingColumnNumber = "9223372036854775807"
                   endingColumnNumber = "9223372036854775807"
                   startingLineNumber = "67"
                   endingLineNumber = "67"
-                  offsetFromSymbolStart = "692">
-               </Location>
-               <Location
-                  uuid = "5278FC4B-160A-455D-9815-5CAAC6D32F95 - cb6b68fb70b169cd"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 () -&gt; () in closure #1 (Server_Driven_UI.FormOne) -&gt; () in Server_Driven_UI.FormViewModel.loadJSON(typeOfForm: Server_Driven_UI.FormType) -&gt; ()"
-                  moduleName = "Server Driven UI"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohammadmugish/Desktop/MyProject/Server%20Driven%20UI/Server%20Driven%20UI/ViewModel/FormViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "68"
-                  endingLineNumber = "68"
-                  offsetFromSymbolStart = "126">
+                  offsetFromSymbolStart = "109">
                </Location>
             </Locations>
          </BreakpointContent>
@@ -78,8 +78,8 @@
             filePath = "Server Driven UI/ViewModel/FormViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "73"
-            endingLineNumber = "73"
+            startingLineNumber = "75"
+            endingLineNumber = "75"
             landmarkName = "loadJSON(typeOfForm:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -94,8 +94,8 @@
             filePath = "Server Driven UI/ViewModel/FormViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "77"
-            endingLineNumber = "77"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
             landmarkName = "loadJSON(typeOfForm:)"
             landmarkType = "7">
          </BreakpointContent>
@@ -142,56 +142,40 @@
             filePath = "Server Driven UI/ViewModel/FormViewModel.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "41"
-            endingLineNumber = "41"
+            startingLineNumber = "43"
+            endingLineNumber = "43"
             landmarkName = "readAllValues()"
             landmarkType = "7">
-            <Locations>
-               <Location
-                  uuid = "25E2F86D-83E0-4012-8B10-B0F230D5D331 - fc42de0900d29dfc"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "Server_Driven_UI.FormViewModel.readAllView() -&gt; ()"
-                  moduleName = "Server Driven UI"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohammadmugish/Desktop/MyProject/Server%20Driven%20UI/Server%20Driven%20UI/ViewModel/FormViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "25"
-                  endingLineNumber = "25"
-                  offsetFromSymbolStart = "29">
-               </Location>
-               <Location
-                  uuid = "25E2F86D-83E0-4012-8B10-B0F230D5D331 - dfbfdd81f92a9704"
-                  shouldBeEnabled = "Yes"
-                  ignoreCount = "0"
-                  continueAfterRunningActions = "No"
-                  symbolName = "closure #1 ((key: Server_Driven_UI.UI_ComponentType, value: Swift.Array&lt;Any&gt;)) -&gt; () in Server_Driven_UI.FormViewModel.readAllView() -&gt; ()"
-                  moduleName = "Server Driven UI"
-                  usesParentBreakpointCondition = "Yes"
-                  urlString = "file:///Users/mohammadmugish/Desktop/MyProject/Server%20Driven%20UI/Server%20Driven%20UI/ViewModel/FormViewModel.swift"
-                  startingColumnNumber = "9223372036854775807"
-                  endingColumnNumber = "9223372036854775807"
-                  startingLineNumber = "26"
-                  endingLineNumber = "26"
-                  offsetFromSymbolStart = "41">
-               </Location>
-            </Locations>
          </BreakpointContent>
       </BreakpointProxy>
       <BreakpointProxy
          BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
          <BreakpointContent
-            uuid = "DB25B132-866F-4B0D-A215-5D1A4B8E40CC"
+            uuid = "08D427BA-1592-47B7-B15F-D04256B2A2E4"
             shouldBeEnabled = "Yes"
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "Server Driven UI/View/FormView.swift"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "54"
-            endingLineNumber = "54"
+            startingLineNumber = "96"
+            endingLineNumber = "96"
+            landmarkName = "body"
+            landmarkType = "24">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "6BF7DB39-8089-4A90-A9CF-E25FE61E1877"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "Server Driven UI/View/FormView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
             landmarkName = "body"
             landmarkType = "24">
          </BreakpointContent>

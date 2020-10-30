@@ -21,6 +21,6 @@ extension UIComponent{
 enum UI_ComponentType: String, Decodable {
     case textField
     case picker
+    
 }
-
 

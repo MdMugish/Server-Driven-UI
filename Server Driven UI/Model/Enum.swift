@@ -9,8 +9,16 @@ import Foundation
 
 
 enum FormType : String{
-    case FormOne
-    case FormTwo
+    case Alpha_1
+    case Alpha_2
+    case Alpha_3
+    case Alpha_4
+    case Alpha_5
 }
 
 
+enum KeyboardInputType : String{
+    case number
+    case text
+    case email
+}

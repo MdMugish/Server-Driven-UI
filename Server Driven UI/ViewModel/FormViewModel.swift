@@ -17,8 +17,10 @@ class FormViewModel : ObservableObject{
     @Published var allViews = [AllRenderViews]()
     @Published var allValues : [String] = []
     
-    init() {
-        print("init", #function)
+    init(formType : String) {
+        
+        loadJSON(typeOfForm: formType)
+        print("init FormViewModel", #function)
     }
     
     func readAllValues(){
@@ -47,13 +49,13 @@ class FormViewModel : ObservableObject{
  
 
     
-    func loadJSON(typeOfForm : FormType){
+    func loadJSON(typeOfForm : String){
         //"FormOne"
-        guard let formOneComponent = FormOneComponent.loadJSON(formName: typeOfForm.rawValue) else{
+        guard let formComponent = FormComponent.loadJSON(formName: typeOfForm) else{
             fatalError("Unable to load the form one")
         }
         
-        formOneComponent.components.forEach{ component in
+        formComponent.components.forEach{ component in
             
             switch component.type {
             

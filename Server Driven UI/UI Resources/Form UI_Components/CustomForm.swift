@@ -1,26 +1,26 @@
 //
-//  FormTwo.swift
+//  FormOne.swift
 //  Server Driven UI
 //
-//  Created by mohammad mugish on 17/10/20.
+//  Created by mohammad mugish on 16/10/20.
 //
 
 import Foundation
 
-struct FormTwo : Decodable {
+struct CustomForm : Decodable {
     let type : UI_ComponentType
     let data : [String : String]
 }
 
-struct FormTwoComponent : Decodable{
+struct FormComponent : Decodable{
     let pageTitle : String
-    let components : [FormTwo]
+    let components : [CustomForm]
 }
 
-extension FormTwoComponent {
+extension FormComponent {
     
-    static func loadJSON(formName : String) -> FormTwoComponent? {
-        
+    static func loadJSON(formName : String) -> FormComponent? {
+        print(formName, "formName is")
         guard let jsonFilePath = Bundle.main.path(forResource: formName, ofType: "json") else {
             fatalError("Unable to load JSON for \(formName)")
         }
@@ -29,10 +29,10 @@ extension FormTwoComponent {
             fatalError("Unable to load data from \(jsonFilePath)")
         }
         
-        var form : FormTwoComponent?
+        var form : FormComponent?
         
         do{
-            form =  try JSONDecoder().decode(FormTwoComponent.self, from: data)
+            form =  try JSONDecoder().decode(FormComponent.self, from: data)
         }catch{
             print(error, "Error")
         }

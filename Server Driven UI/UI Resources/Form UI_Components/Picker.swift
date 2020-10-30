@@ -15,6 +15,7 @@ struct PickerModel : Codable{
     let pickerHint : String
     var pickerValue : String
     var selectedValue : String
+    let status : String
 }
 
 
@@ -37,15 +38,23 @@ struct PickerView : View {
     
     @ObservedObject var vm : PickerViewModel
     @State var select : Int = 0
+    
+    
     var body : some View{
         VStack(alignment : .leading) {
-            Text("\(vm.model.pickerHint)").padding(.horizontal, 16)
+            HStack(spacing : 0){
+                Text("\(vm.model.pickerHint)\(vm.model.status == "1" ? "*" : "")")
+
+            }.padding(.horizontal, 16)
             
-            Picker(selection: $vm.model.selectedValue, label: Text("Gender"), content: {
+            Picker(selection: $vm.model.selectedValue, label: Text("\(vm.model.pickerHint)\(vm.model.status == "1" ? "*" : "")"), content: {
                 ForEach(vm.listOfValues(), id: \.self) { value in
-                    Text(value)
+                    Text(value).font(.system(size: 16, weight: .regular, design: .default))
                 }
-            }).pickerStyle(InlinePickerStyle()).padding().frame(width: nil, height: 100, alignment: .center)
+            })
+            .pickerStyle(InlinePickerStyle())
+            .padding()
+            .frame(width: nil, height: 100, alignment: .center).padding(.top,40 ).padding(.bottom,40)
         }
     }
 }
@@ -63,6 +72,6 @@ struct PickerViewUIComponent : UIComponent {
 
 struct PickerView_Previews: PreviewProvider {
     static var previews: some View {
-        PickerView(vm: PickerViewModel(model: PickerModel(pickerHint: "Gender", pickerValue: "Male, Female", selectedValue: "1")))
+        PickerView(vm: PickerViewModel(model: PickerModel(pickerHint: "Gender", pickerValue: "Male, Female", selectedValue: "1", status: "1")))
     }
 }
